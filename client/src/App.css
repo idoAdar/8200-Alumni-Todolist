@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+.app-main {
+  margin: 5rem auto;
+  width: 35rem;
+  min-height: 40rem;
+  max-height: auto;
+  border-radius: 15px;
+  background-color: #d6d6d6;
+  box-shadow: 8px 8px 30px #858383b9;
+  overflow: hidden;
+}
+
+.app-main hr {
+  margin: 1rem;
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, #3281c213, #3e76a5e8, #3281c213);
+}
+
+@media (max-width: 375px) {
+  .app-main {
+    margin: 0 auto;
+    width: 100%;
+    min-height: 100vh;
+    max-height: auto;
+    border-radius: 0;
+  }
+
+  .app-main hr {
+    margin: 1rem;
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(
+      to right,
+      #3281c213,
+      #3e76a5e8,
+      #3281c213
+    );
+  }
+}

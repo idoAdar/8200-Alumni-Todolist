@@ -1,0 +1,50 @@
+.newtodo-main {
+  width: 100%;
+  height: 14rem;
+}
+
+.newtodo-main form {
+  height: 100%;
+  width: 26rem;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.newtodo-main button,
+.newtodo-main input {
+  width: 100%;
+  padding: 0.8rem;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid #1568ac6c;
+}
+
+.newtodo-main button {
+  text-transform: uppercase;
+  color: #ffff;
+  background-color: #1568ac;
+}
+
+.newtodo-main button:hover {
+  cursor: pointer;
+  background-color: #3281c2;
+}
+
+.newtodo-main small {
+  color: red;
+}
+
+@media (max-width: 375px) {
+  .newtodo-main {
+    width: 100%;
+    height: 14rem;
+  }
+
+  .newtodo-main form {
+    padding: 1rem;
+    width: 100%;
+  }
+}
